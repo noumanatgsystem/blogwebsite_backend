@@ -35,7 +35,15 @@ namespace Domain.Models.User
         [MaxLength(50)]
         public string Role { get; set; } = "";
 
+        [Column(TypeName = "NVARCHAR")]
+        [MaxLength(500)]
+        public string ProfileImageUrl { get; set; } = "";
+
         public bool IsBlocked { get; set; } = false;
+
+        public bool IsEmailVerified { get; set; } = false;
+
+        public DateTime AddedDate { get; set; } = DateTime.UtcNow;
 
 
 

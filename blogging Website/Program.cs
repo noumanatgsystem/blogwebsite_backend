@@ -1,4 +1,5 @@
 using blogging_Website.InjectedServices;
+using Common.Methods;
 using Infrastructure.Context;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,8 +12,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+CommonMethods.Initialize(builder.Configuration);
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddCustomeService();
+
 
 var app = builder.Build();
 

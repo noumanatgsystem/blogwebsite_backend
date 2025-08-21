@@ -16,6 +16,7 @@ namespace Infrastructure.Context
 
         #region Users
         public DbSet<AppUser> AppUser { get; set; }
+        public DbSet<RefreshToken> RefreshToken { get; set; }
 
         #endregion
 
