@@ -1,4 +1,6 @@
 using blogging_Website.InjectedServices;
+using blogging_Website.Middlewares.Exceptions;
+using blogging_Website.Middlewares.JWT;
 using Common.Methods;
 using Infrastructure.Context;
 using Microsoft.EntityFrameworkCore;
@@ -27,9 +29,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseMiddleware<JWTMiddleware>();
 app.UseAuthorization();
-
+app.UseMiddleware<ExceptionMiddleware>();
 app.MapControllers();
 
 app.Run();

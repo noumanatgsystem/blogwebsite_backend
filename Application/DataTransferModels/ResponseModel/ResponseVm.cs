@@ -4,23 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.DataTransferModels.Common
+namespace Application.DataTransferModels.ResponseModel
 {
-    public sealed class ResponseVM
+    public sealed class ResponseVm
     {
-        private static ResponseVM? instance = null;
+        private static ResponseVm? instance = null;
 
-        private ResponseVM()
+        private ResponseVm()
         {
         }
 
-        public static ResponseVM Instance
+        public static ResponseVm Instance
         {
             get
             {
                 //if (instance == null)
                 {
-                    instance = new ResponseVM();
+                    instance = new ResponseVm();
                 }
                 return instance;
             }

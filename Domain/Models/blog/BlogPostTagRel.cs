@@ -20,6 +20,6 @@ namespace Domain.Models.blog
 
         [ForeignKey("Tags")]
         public long TagId { get; set; }
-        public Category Tags { get; set; }
+        public Tags Tags { get; set; }
     }
 }

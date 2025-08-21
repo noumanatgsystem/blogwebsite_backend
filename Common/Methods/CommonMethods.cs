@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Net;
@@ -8,7 +9,9 @@ using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using Dapper;
 using Domain.Models.User;
+using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 
@@ -46,7 +49,8 @@ namespace Common.Methods
             var plainTextBytes = System.Text.Encoding.UTF8.GetBytes(password);
             return System.Convert.ToBase64String(plainTextBytes);
         }
-        public static string GenerateJwtToken(string UserEmail, long UserID, string UserName,string role)
+
+        public static string GenerateJwtToken(string UserEmail, long UserID, string UserName, string Role)
         {
 
             var authClaims = new List<Claim>
@@ -54,7 +58,7 @@ namespace Common.Methods
                 new Claim("Email", UserEmail),
                 new Claim("ID", UserID.ToString()),
                 new Claim("UserName", UserName),
-                new Claim("Role",role)
+                new Claim("Role",Role)
             };
             var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["JWT:Secret"]));
             var token = new JwtSecurityToken(
@@ -90,15 +94,38 @@ namespace Common.Methods
                 UserId = userId
             };
         }
+        public static long? GetUserIdFromExpiredToken(string token)
+        {
+            var tokenHandler = new JwtSecurityTokenHandler();
+
+            try
+            {
+                var jwtToken = tokenHandler.ReadJwtToken(token);
+
+                // Extract user ID from the custom "ID" claim
+                var userIdClaim = jwtToken?.Claims?.FirstOrDefault(c => c.Type == "ID");
+
+                if (userIdClaim != null && long.TryParse(userIdClaim.Value, out long userId))
+                {
+                    return userId;
+                }
+
+                return null;
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
 
         #endregion
 
         #region Email
-        public static async Task<string> SendEmail(string userEmail, string subject, string body, IConfiguration config)
+        public static async Task<string> SendEmail(string userEmail, string subject, string body)
         {
             string response = "";
 
-            var smtpSettings = config.GetSection("SmtpSettings");
+            var smtpSettings = _config.GetSection("SmtpSettings");
 
             using (var client = new SmtpClient(smtpSettings["SmtpServer"], int.Parse(smtpSettings["SmtpPort"])))
             {
@@ -132,12 +159,12 @@ namespace Common.Methods
 
             return response;
         }
-        public static void SendVerificationEmail(AppUser AppUser, IConfiguration _config)
+        public static void SendVerificationEmail(AppUser AppUser)
         {
 
             if (AppUser != null)
             {
-                var token = GenerateJwtToken(AppUser.Email, AppUser.Id, AppUser.UserName,AppUser.Role);
+                var token = GenerateJwtToken(AppUser.Email, AppUser.Id, AppUser.UserName, AppUser.Role);
                 if (string.IsNullOrEmpty(AppUser.Email))
                 {
                     return;
@@ -145,13 +172,50 @@ namespace Common.Methods
 
                 //string filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "verifyemail.html");
                 //string htmlContent = System.IO.File.ReadAllText(filePath);
-                string link = $"https://admissionlylo.com/?VerifyToken={token}";
+                //string link = $"https://admissionlylo.com/?VerifyToken={token}";
                 //htmlContent = htmlContent.Replace("{{VerificationLink}}", link);
-                SendEmail(AppUser.Email, "AdmissionLelo Verification Email","Hello", _config);
+                //SendEmail(AppUser.Email, "AdmissionLelo Verification Email","Hello", _config);
 
             }
         }
 
+        #endregion
+
+        #region connectionStrings
+        public static string GetConnectionString()
+        {
+            return _config.GetConnectionString("ConnectionString");
+        }
+
+        #endregion
+
+
+        #region DB
+        public static List<dynamic> ExecuteStoredProcedure(DynamicParameters parameters, string storedProcedureName)
+        {
+            string connectionString = GetConnectionString();
+            using (var connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                var data = (connection.Query<dynamic>(
+                    storedProcedureName,
+                    parameters,
+                    commandType: CommandType.StoredProcedure
+                )).ToList();
+
+                return data;
+            }
+        }
+        public static List<TModel> ExecuteStoredProcedureAndMaptoModel<TModel>(string storedProcedureName, object parameters = null)
+        {
+            using (IDbConnection dbConnection = new SqlConnection(GetConnectionString()))
+            {
+                dbConnection.Open();
+                var result = dbConnection.QueryMultiple(storedProcedureName, parameters, commandType: CommandType.StoredProcedure);
+                var models = result.Read<TModel>();
+                return models.ToList();
+            }
+        }
         #endregion
     }
 }

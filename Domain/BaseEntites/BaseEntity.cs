@@ -14,6 +14,9 @@ namespace Domain.BaseEntites
         public bool IsDeclined { get; set; } = false;
         public bool IsVerified { get; set; } = false;
         public bool IsPending { get; set; } = false;
+
+        public long createdBy { get;set; }
+        public long updatedBy { get;set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedDate { get; set; }
     }

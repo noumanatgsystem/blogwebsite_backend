@@ -51,5 +51,16 @@ namespace Domain.Models.blog
         [Column(TypeName = "NVARCHAR")]
         [MaxLength(20)]
         public string Status { get; set; } = "Draft";
+
+        public ICollection<BlogComment> Comments { get; set; } = new List<BlogComment>();
+
+        // Navigation property for likes
+        public ICollection<BlogLike> Likes { get; set; } = new List<BlogLike>();
+
+        // Navigation property for saves
+        public ICollection<BlogSave> Saves { get; set; } = new List<BlogSave>();
+
+        // Many-to-many with Categories
+        public ICollection<BlogPostCategoryRel> BlogPostCategories { get; set; } = new List<BlogPostCategoryRel>();
     }
 }

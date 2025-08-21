@@ -3,84 +3,64 @@
   "WorkspaceRootPath": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16F94C6B-EAE4-4AB0-BC58-91E939198D6A}|blogging Website\\blogging Website.csproj|d:\\muhammad nouman\\projects\\blog site\\backend\\blogging website\\blogging website\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{16F94C6B-EAE4-4AB0-BC58-91E939198D6A}|blogging Website\\blogging Website.csproj|solutionrelative:blogging website\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBAE693C-E06B-45C1-ACD5-CAAD14E0F594}|Domain\\Domain.csproj|d:\\muhammad nouman\\projects\\blog site\\backend\\blogging website\\domain\\models\\user\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBAE693C-E06B-45C1-ACD5-CAAD14E0F594}|Domain\\Domain.csproj|solutionrelative:domain\\models\\user\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBAE693C-E06B-45C1-ACD5-CAAD14E0F594}|Domain\\Domain.csproj|d:\\muhammad nouman\\projects\\blog site\\backend\\blogging website\\domain\\models\\blog\\blogposttagrel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBAE693C-E06B-45C1-ACD5-CAAD14E0F594}|Domain\\Domain.csproj|solutionrelative:domain\\models\\blog\\blogposttagrel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBAE693C-E06B-45C1-ACD5-CAAD14E0F594}|Domain\\Domain.csproj|d:\\muhammad nouman\\projects\\blog site\\backend\\blogging website\\domain\\models\\blog\\blogpostcategoryrel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBAE693C-E06B-45C1-ACD5-CAAD14E0F594}|Domain\\Domain.csproj|solutionrelative:domain\\models\\blog\\blogpostcategoryrel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBAE693C-E06B-45C1-ACD5-CAAD14E0F594}|Domain\\Domain.csproj|d:\\muhammad nouman\\projects\\blog site\\backend\\blogging website\\domain\\models\\blog\\tags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBAE693C-E06B-45C1-ACD5-CAAD14E0F594}|Domain\\Domain.csproj|solutionrelative:domain\\models\\blog\\tags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBAE693C-E06B-45C1-ACD5-CAAD14E0F594}|Domain\\Domain.csproj|d:\\muhammad nouman\\projects\\blog site\\backend\\blogging website\\domain\\models\\blog\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBAE693C-E06B-45C1-ACD5-CAAD14E0F594}|Domain\\Domain.csproj|solutionrelative:domain\\models\\blog\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBAE693C-E06B-45C1-ACD5-CAAD14E0F594}|Domain\\Domain.csproj|d:\\muhammad nouman\\projects\\blog site\\backend\\blogging website\\domain\\models\\blog\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBAE693C-E06B-45C1-ACD5-CAAD14E0F594}|Domain\\Domain.csproj|solutionrelative:domain\\models\\blog\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{412C1CA0-2737-4CB5-BE62-20F71AF9FF78}|Infrastructure\\Infrastructure.csproj|d:\\muhammad nouman\\projects\\blog site\\backend\\blogging website\\infrastructure\\services\\user\\appuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{412C1CA0-2737-4CB5-BE62-20F71AF9FF78}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\user\\appuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0FB2FF4-7643-4CD7-AB42-2FA57EFBE846}|Application\\Application.csproj|d:\\muhammad nouman\\projects\\blog site\\backend\\blogging website\\application\\datatransfermodels\\appuser\\loginuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0FB2FF4-7643-4CD7-AB42-2FA57EFBE846}|Application\\Application.csproj|solutionrelative:application\\datatransfermodels\\appuser\\loginuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0FB2FF4-7643-4CD7-AB42-2FA57EFBE846}|Application\\Application.csproj|d:\\muhammad nouman\\projects\\blog site\\backend\\blogging website\\application\\datatransfermodels\\appuser\\usersearchvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB2FF4-7643-4CD7-AB42-2FA57EFBE846}|Application\\Application.csproj|solutionrelative:application\\datatransfermodels\\appuser\\usersearchvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{412C1CA0-2737-4CB5-BE62-20F71AF9FF78}|Infrastructure\\Infrastructure.csproj|d:\\muhammad nouman\\projects\\blog site\\backend\\blogging website\\infrastructure\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{412C1CA0-2737-4CB5-BE62-20F71AF9FF78}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0FB2FF4-7643-4CD7-AB42-2FA57EFBE846}|Application\\Application.csproj|d:\\muhammad nouman\\projects\\blog site\\backend\\blogging website\\application\\datatransfermodels\\appuser\\uservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0FB2FF4-7643-4CD7-AB42-2FA57EFBE846}|Application\\Application.csproj|solutionrelative:application\\datatransfermodels\\appuser\\uservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16F94C6B-EAE4-4AB0-BC58-91E939198D6A}|blogging Website\\blogging Website.csproj|d:\\muhammad nouman\\projects\\blog site\\backend\\blogging website\\blogging website\\controllers\\appuser\\appusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16F94C6B-EAE4-4AB0-BC58-91E939198D6A}|blogging Website\\blogging Website.csproj|solutionrelative:blogging website\\controllers\\appuser\\appusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0FB2FF4-7643-4CD7-AB42-2FA57EFBE846}|Application\\Application.csproj|d:\\muhammad nouman\\projects\\blog site\\backend\\blogging website\\application\\datatransfermodels\\common\\responsevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0FB2FF4-7643-4CD7-AB42-2FA57EFBE846}|Application\\Application.csproj|solutionrelative:application\\datatransfermodels\\common\\responsevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0FB2FF4-7643-4CD7-AB42-2FA57EFBE846}|Application\\Application.csproj|d:\\muhammad nouman\\projects\\blog site\\backend\\blogging website\\application\\datatransfermodels\\common\\paginationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB2FF4-7643-4CD7-AB42-2FA57EFBE846}|Application\\Application.csproj|solutionrelative:application\\datatransfermodels\\common\\paginationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D06B1C17-6332-4780-BB0C-C4C10611E8E1}|Common\\Common.csproj|d:\\muhammad nouman\\projects\\blog site\\backend\\blogging website\\common\\methods\\commonmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D06B1C17-6332-4780-BB0C-C4C10611E8E1}|Common\\Common.csproj|solutionrelative:common\\methods\\commonmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D06B1C17-6332-4780-BB0C-C4C10611E8E1}|Common\\Common.csproj|d:\\muhammad nouman\\projects\\blog site\\backend\\blogging website\\common\\common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D06B1C17-6332-4780-BB0C-C4C10611E8E1}|Common\\Common.csproj|solutionrelative:common\\common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{BBAE693C-E06B-45C1-ACD5-CAAD14E0F594}|Domain\\Domain.csproj|d:\\muhammad nouman\\projects\\blog site\\backend\\blogging website\\domain\\models\\user\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBAE693C-E06B-45C1-ACD5-CAAD14E0F594}|Domain\\Domain.csproj|solutionrelative:domain\\models\\user\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB2FF4-7643-4CD7-AB42-2FA57EFBE846}|Application\\Application.csproj|d:\\muhammad nouman\\projects\\blog site\\backend\\blogging website\\application\\datatransfermodels\\common\\declinevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB2FF4-7643-4CD7-AB42-2FA57EFBE846}|Application\\Application.csproj|solutionrelative:application\\datatransfermodels\\common\\declinevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB2FF4-7643-4CD7-AB42-2FA57EFBE846}|Application\\Application.csproj|d:\\muhammad nouman\\projects\\blog site\\backend\\blogging website\\application\\datatransfermodels\\appuser\\loggedinuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB2FF4-7643-4CD7-AB42-2FA57EFBE846}|Application\\Application.csproj|solutionrelative:application\\datatransfermodels\\appuser\\loggedinuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB2FF4-7643-4CD7-AB42-2FA57EFBE846}|Application\\Application.csproj|d:\\muhammad nouman\\projects\\blog site\\backend\\blogging website\\application\\datatransfermodels\\appuser\\loginuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB2FF4-7643-4CD7-AB42-2FA57EFBE846}|Application\\Application.csproj|solutionrelative:application\\datatransfermodels\\appuser\\loginuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB2FF4-7643-4CD7-AB42-2FA57EFBE846}|Application\\Application.csproj|d:\\muhammad nouman\\projects\\blog site\\backend\\blogging website\\application\\datatransfermodels\\authentication\\refreshtokenvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB2FF4-7643-4CD7-AB42-2FA57EFBE846}|Application\\Application.csproj|solutionrelative:application\\datatransfermodels\\authentication\\refreshtokenvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F94C6B-EAE4-4AB0-BC58-91E939198D6A}|blogging Website\\blogging Website.csproj|d:\\muhammad nouman\\projects\\blog site\\backend\\blogging website\\blogging website\\middlewares\\exceptions\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16F94C6B-EAE4-4AB0-BC58-91E939198D6A}|blogging Website\\blogging Website.csproj|solutionrelative:blogging website\\middlewares\\exceptions\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB2FF4-7643-4CD7-AB42-2FA57EFBE846}|Application\\Application.csproj|d:\\muhammad nouman\\projects\\blog site\\backend\\blogging website\\application\\datatransfermodels\\authentication\\changepasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB2FF4-7643-4CD7-AB42-2FA57EFBE846}|Application\\Application.csproj|solutionrelative:application\\datatransfermodels\\authentication\\changepasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16F94C6B-EAE4-4AB0-BC58-91E939198D6A}|blogging Website\\blogging Website.csproj|d:\\muhammad nouman\\projects\\blog site\\backend\\blogging website\\blogging website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16F94C6B-EAE4-4AB0-BC58-91E939198D6A}|blogging Website\\blogging Website.csproj|solutionrelative:blogging website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16F94C6B-EAE4-4AB0-BC58-91E939198D6A}|blogging Website\\blogging Website.csproj|d:\\muhammad nouman\\projects\\blog site\\backend\\blogging website\\blogging website\\injectedservices\\customeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16F94C6B-EAE4-4AB0-BC58-91E939198D6A}|blogging Website\\blogging Website.csproj|solutionrelative:blogging website\\injectedservices\\customeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16F94C6B-EAE4-4AB0-BC58-91E939198D6A}|blogging Website\\blogging Website.csproj|d:\\muhammad nouman\\projects\\blog site\\backend\\blogging website\\blogging website\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{16F94C6B-EAE4-4AB0-BC58-91E939198D6A}|blogging Website\\blogging Website.csproj|solutionrelative:blogging website\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{412C1CA0-2737-4CB5-BE62-20F71AF9FF78}|Infrastructure\\Infrastructure.csproj|d:\\muhammad nouman\\projects\\blog site\\backend\\blogging website\\infrastructure\\services\\blog\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{412C1CA0-2737-4CB5-BE62-20F71AF9FF78}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\blog\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16F94C6B-EAE4-4AB0-BC58-91E939198D6A}|blogging Website\\blogging Website.csproj|d:\\muhammad nouman\\projects\\blog site\\backend\\blogging website\\blogging website\\middlewares\\jwt\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16F94C6B-EAE4-4AB0-BC58-91E939198D6A}|blogging Website\\blogging Website.csproj|solutionrelative:blogging website\\middlewares\\jwt\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0FB2FF4-7643-4CD7-AB42-2FA57EFBE846}|Application\\Application.csproj|d:\\muhammad nouman\\projects\\blog site\\backend\\blogging website\\application\\interface\\user\\iappuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0FB2FF4-7643-4CD7-AB42-2FA57EFBE846}|Application\\Application.csproj|solutionrelative:application\\interface\\user\\iappuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0FB2FF4-7643-4CD7-AB42-2FA57EFBE846}|Application\\Application.csproj|d:\\muhammad nouman\\projects\\blog site\\backend\\blogging website\\application\\interface\\blog\\iblog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0FB2FF4-7643-4CD7-AB42-2FA57EFBE846}|Application\\Application.csproj|solutionrelative:application\\interface\\blog\\iblog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0FB2FF4-7643-4CD7-AB42-2FA57EFBE846}|Application\\Application.csproj|d:\\muhammad nouman\\projects\\blog site\\backend\\blogging website\\application\\datatransfermodels\\authentication\\tokenvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB2FF4-7643-4CD7-AB42-2FA57EFBE846}|Application\\Application.csproj|solutionrelative:application\\datatransfermodels\\authentication\\tokenvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,8 +70,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 11,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaginationVm.cs",
+              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Application\\DataTransferModels\\Common\\PaginationVm.cs",
+              "RelativeDocumentMoniker": "Application\\DataTransferModels\\Common\\PaginationVm.cs",
+              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Application\\DataTransferModels\\Common\\PaginationVm.cs",
+              "RelativeToolTip": "Application\\DataTransferModels\\Common\\PaginationVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T13:52:33.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserSearchVm.cs",
+              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Application\\DataTransferModels\\AppUser\\UserSearchVm.cs",
+              "RelativeDocumentMoniker": "Application\\DataTransferModels\\AppUser\\UserSearchVm.cs",
+              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Application\\DataTransferModels\\AppUser\\UserSearchVm.cs",
+              "RelativeToolTip": "Application\\DataTransferModels\\AppUser\\UserSearchVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T13:52:07.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Domain\\Models\\User\\AppUser.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\User\\AppUser.cs",
+              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Domain\\Models\\User\\AppUser.cs",
+              "RelativeToolTip": "Domain\\Models\\User\\AppUser.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T13:46:35.834Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -102,7 +121,111 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DeclineVm.cs",
+              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Application\\DataTransferModels\\Common\\DeclineVm.cs",
+              "RelativeDocumentMoniker": "Application\\DataTransferModels\\Common\\DeclineVm.cs",
+              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Application\\DataTransferModels\\Common\\DeclineVm.cs",
+              "RelativeToolTip": "Application\\DataTransferModels\\Common\\DeclineVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T13:46:11.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoggedInUser.cs",
+              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Application\\DataTransferModels\\AppUser\\LoggedInUser.cs",
+              "RelativeDocumentMoniker": "Application\\DataTransferModels\\AppUser\\LoggedInUser.cs",
+              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Application\\DataTransferModels\\AppUser\\LoggedInUser.cs",
+              "RelativeToolTip": "Application\\DataTransferModels\\AppUser\\LoggedInUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T13:35:21.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginUserVM.cs",
+              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Application\\DataTransferModels\\AppUser\\LoginUserVM.cs",
+              "RelativeDocumentMoniker": "Application\\DataTransferModels\\AppUser\\LoginUserVM.cs",
+              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Application\\DataTransferModels\\AppUser\\LoginUserVM.cs",
+              "RelativeToolTip": "Application\\DataTransferModels\\AppUser\\LoginUserVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T13:35:19.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CommonMethods.cs",
+              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Common\\Methods\\CommonMethods.cs",
+              "RelativeDocumentMoniker": "Common\\Methods\\CommonMethods.cs",
+              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Common\\Methods\\CommonMethods.cs",
+              "RelativeToolTip": "Common\\Methods\\CommonMethods.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAnwMkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T13:34:24.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RefreshTokenVm.cs",
+              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Application\\DataTransferModels\\Authentication\\RefreshTokenVm.cs",
+              "RelativeDocumentMoniker": "Application\\DataTransferModels\\Authentication\\RefreshTokenVm.cs",
+              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Application\\DataTransferModels\\Authentication\\RefreshTokenVm.cs",
+              "RelativeToolTip": "Application\\DataTransferModels\\Authentication\\RefreshTokenVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T13:33:17.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ChangePasswordVm.cs",
+              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Application\\DataTransferModels\\Authentication\\ChangePasswordVm.cs",
+              "RelativeDocumentMoniker": "Application\\DataTransferModels\\Authentication\\ChangePasswordVm.cs",
+              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Application\\DataTransferModels\\Authentication\\ChangePasswordVm.cs",
+              "RelativeToolTip": "Application\\DataTransferModels\\Authentication\\ChangePasswordVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T13:29:53.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AppUserService.cs",
+              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Infrastructure\\Services\\User\\AppUserService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\User\\AppUserService.cs",
+              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Infrastructure\\Services\\User\\AppUserService.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\User\\AppUserService.cs",
+              "ViewState": "AgIAAAECAAAAAAAAAAAuwBUCAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T13:28:33.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\blogging Website\\Program.cs",
+              "RelativeDocumentMoniker": "blogging Website\\Program.cs",
+              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\blogging Website\\Program.cs",
+              "RelativeToolTip": "blogging Website\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T13:27:27.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\blogging Website\\appsettings.json",
               "RelativeDocumentMoniker": "blogging Website\\appsettings.json",
@@ -110,237 +233,47 @@
               "RelativeToolTip": "blogging Website\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-01T20:13:24.533Z",
+              "WhenOpened": "2025-08-21T13:27:23.985Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BlogPostTagRel.cs",
-              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Domain\\Models\\blog\\BlogPostTagRel.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\blog\\BlogPostTagRel.cs",
-              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Domain\\Models\\blog\\BlogPostTagRel.cs",
-              "RelativeToolTip": "Domain\\Models\\blog\\BlogPostTagRel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T20:49:59.257Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BlogPostCategoryRel.cs",
-              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Domain\\Models\\blog\\BlogPostCategoryRel.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\blog\\BlogPostCategoryRel.cs",
-              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Domain\\Models\\blog\\BlogPostCategoryRel.cs",
-              "RelativeToolTip": "Domain\\Models\\blog\\BlogPostCategoryRel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T20:49:55.066Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Tags.cs",
-              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Domain\\Models\\blog\\Tags.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\blog\\Tags.cs",
-              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Domain\\Models\\blog\\Tags.cs",
-              "RelativeToolTip": "Domain\\Models\\blog\\Tags.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T20:49:53.653Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Domain\\Models\\blog\\Category.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\blog\\Category.cs",
-              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Domain\\Models\\blog\\Category.cs",
-              "RelativeToolTip": "Domain\\Models\\blog\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T20:49:52.498Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BlogPost.cs",
-              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Domain\\Models\\blog\\BlogPost.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\blog\\BlogPost.cs",
-              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Domain\\Models\\blog\\BlogPost.cs",
-              "RelativeToolTip": "Domain\\Models\\blog\\BlogPost.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T20:49:48.24Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LoginUserVM.cs",
-              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Application\\DataTransferModels\\AppUser\\LoginUserVM.cs",
-              "RelativeDocumentMoniker": "Application\\DataTransferModels\\AppUser\\LoginUserVM.cs",
-              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Application\\DataTransferModels\\AppUser\\LoginUserVM.cs",
-              "RelativeToolTip": "Application\\DataTransferModels\\AppUser\\LoginUserVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T15:56:10.108Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Infrastructure\\Context\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Context\\AppDbContext.cs",
-              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Infrastructure\\Context\\AppDbContext.cs",
-              "RelativeToolTip": "Infrastructure\\Context\\AppDbContext.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T15:53:44.559Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Domain\\Models\\User\\AppUser.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\User\\AppUser.cs",
-              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Domain\\Models\\User\\AppUser.cs",
-              "RelativeToolTip": "Domain\\Models\\User\\AppUser.cs",
-              "ViewState": "AgIAABUAAAAAYqBUMY/6vxIAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T15:50:31.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserVM.cs",
-              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Application\\DataTransferModels\\AppUser\\UserVM.cs",
-              "RelativeDocumentMoniker": "Application\\DataTransferModels\\AppUser\\UserVM.cs",
-              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Application\\DataTransferModels\\AppUser\\UserVM.cs",
-              "RelativeToolTip": "Application\\DataTransferModels\\AppUser\\UserVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T15:50:15.272Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ResponseVM.cs",
-              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Application\\DataTransferModels\\Common\\ResponseVM.cs",
-              "RelativeDocumentMoniker": "Application\\DataTransferModels\\Common\\ResponseVM.cs",
-              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Application\\DataTransferModels\\Common\\ResponseVM.cs",
-              "RelativeToolTip": "Application\\DataTransferModels\\Common\\ResponseVM.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA7wB4AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T15:48:38.812Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "Common.csproj",
-              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Common\\Common.csproj",
-              "RelativeDocumentMoniker": "Common\\Common.csproj",
-              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Common\\Common.csproj",
-              "RelativeToolTip": "Common\\Common.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-27T15:46:30.598Z"
+              "Title": "TokenVm.cs",
+              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Application\\DataTransferModels\\Authentication\\TokenVm.cs",
+              "RelativeDocumentMoniker": "Application\\DataTransferModels\\Authentication\\TokenVm.cs",
+              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Application\\DataTransferModels\\Authentication\\TokenVm.cs",
+              "RelativeToolTip": "Application\\DataTransferModels\\Authentication\\TokenVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T13:25:05.188Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "CommonMethods.cs",
-              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Common\\Methods\\CommonMethods.cs",
-              "RelativeDocumentMoniker": "Common\\Methods\\CommonMethods.cs",
-              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Common\\Methods\\CommonMethods.cs",
-              "RelativeToolTip": "Common\\Methods\\CommonMethods.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAASAAAAAAAAAA==",
+              "Title": "JWTMiddleware.cs",
+              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\blogging Website\\Middlewares\\JWT\\JWTMiddleware.cs",
+              "RelativeDocumentMoniker": "blogging Website\\Middlewares\\JWT\\JWTMiddleware.cs",
+              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\blogging Website\\Middlewares\\JWT\\JWTMiddleware.cs",
+              "RelativeToolTip": "blogging Website\\Middlewares\\JWT\\JWTMiddleware.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAxwCYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T15:34:34.5Z"
+              "WhenOpened": "2025-08-21T13:22:51.522Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AppUserController.cs",
-              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\blogging Website\\Controllers\\AppUser\\AppUserController.cs",
-              "RelativeDocumentMoniker": "blogging Website\\Controllers\\AppUser\\AppUserController.cs",
-              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\blogging Website\\Controllers\\AppUser\\AppUserController.cs",
-              "RelativeToolTip": "blogging Website\\Controllers\\AppUser\\AppUserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\blogging Website\\Middlewares\\Exceptions\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "blogging Website\\Middlewares\\Exceptions\\ExceptionMiddleware.cs",
+              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\blogging Website\\Middlewares\\Exceptions\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "blogging Website\\Middlewares\\Exceptions\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T15:29:09.819Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CustomeService.cs",
-              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\blogging Website\\InjectedServices\\CustomeService.cs",
-              "RelativeDocumentMoniker": "blogging Website\\InjectedServices\\CustomeService.cs",
-              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\blogging Website\\InjectedServices\\CustomeService.cs",
-              "RelativeToolTip": "blogging Website\\InjectedServices\\CustomeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T15:24:29.233Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\blogging Website\\Program.cs",
-              "RelativeDocumentMoniker": "blogging Website\\Program.cs",
-              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\blogging Website\\Program.cs",
-              "RelativeToolTip": "blogging Website\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T15:21:52.747Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IAppUser.cs",
-              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Application\\Interface\\User\\IAppUser.cs",
-              "RelativeDocumentMoniker": "Application\\Interface\\User\\IAppUser.cs",
-              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Application\\Interface\\User\\IAppUser.cs",
-              "RelativeToolTip": "Application\\Interface\\User\\IAppUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T15:13:52.914Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IBlog.cs",
-              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Application\\Interface\\Blog\\IBlog.cs",
-              "RelativeDocumentMoniker": "Application\\Interface\\Blog\\IBlog.cs",
-              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Application\\Interface\\Blog\\IBlog.cs",
-              "RelativeToolTip": "Application\\Interface\\Blog\\IBlog.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T15:13:31.928Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AppUserService.cs",
-              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Infrastructure\\Services\\User\\AppUserService.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Services\\User\\AppUserService.cs",
-              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Infrastructure\\Services\\User\\AppUserService.cs",
-              "RelativeToolTip": "Infrastructure\\Services\\User\\AppUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIEAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T15:13:00.86Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "BlogService.cs",
-              "DocumentMoniker": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Infrastructure\\Services\\Blog\\BlogService.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Services\\Blog\\BlogService.cs",
-              "ToolTip": "D:\\Muhammad Nouman\\Projects\\Blog Site\\Backend\\blogging Website\\Infrastructure\\Services\\Blog\\BlogService.cs",
-              "RelativeToolTip": "Infrastructure\\Services\\Blog\\BlogService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T15:12:49.48Z"
+              "WhenOpened": "2025-08-21T13:22:13.123Z",
+              "EditorCaption": ""
             }
           ]
         }

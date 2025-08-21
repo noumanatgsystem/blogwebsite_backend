@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250727151058_AllTablesAdded")]
-    partial class AllTablesAdded
+    [Migration("20250821132117_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -33,6 +33,9 @@ namespace Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
 
+                    b.Property<DateTime>("AddedDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
@@ -46,10 +49,16 @@ namespace Infrastructure.Migrations
                         .HasMaxLength(500)
                         .HasColumnType("NVARCHAR");
 
+                    b.Property<bool>("IsBlocked")
+                        .HasColumnType("bit");
+
                     b.Property<bool>("IsDeclined")
                         .HasColumnType("bit");
 
                     b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsEmailVerified")
                         .HasColumnType("bit");
 
                     b.Property<bool>("IsPending")
@@ -63,6 +72,11 @@ namespace Infrastructure.Migrations
                         .HasMaxLength(500)
                         .HasColumnType("NVARCHAR");
 
+                    b.Property<string>("ProfileImageUrl")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("NVARCHAR");
+
                     b.Property<string>("Role")
                         .IsRequired()
                         .HasMaxLength(50)
@@ -71,9 +85,100 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("UpdatedDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("NVARCHAR");
+
+                    b.Property<long>("createdBy")
+                        .HasColumnType("bigint");
+
+                    b.Property<long>("updatedBy")
+                        .HasColumnType("bigint");
+
                     b.HasKey("Id");
 
                     b.ToTable("AppUser");
+                });
+
+            modelBuilder.Entity("Domain.Models.User.RefreshToken", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("Expires")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Token")
+                        .IsRequired()
+                        .HasMaxLength(400)
+                        .HasColumnType("NVARCHAR");
+
+                    b.Property<long>("UserId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("RefreshToken");
+                });
+
+            modelBuilder.Entity("Domain.Models.blog.BlogComment", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<long>("BlogPostId")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasMaxLength(2000)
+                        .HasColumnType("NVARCHAR");
+
+                    b.Property<bool>("IsApproved")
+                        .HasColumnType("bit");
+
+                    b.Property<long>("UserId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BlogPostId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("BlogComment");
+                });
+
+            modelBuilder.Entity("Domain.Models.blog.BlogLike", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<long>("BlogPostId")
+                        .HasColumnType("bigint");
+
+                    b.Property<long>("UserId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BlogPostId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("BlogLike");
                 });
 
             modelBuilder.Entity("Domain.Models.blog.BlogPost", b =>
@@ -143,6 +248,12 @@ namespace Infrastructure.Migrations
                     b.Property<long>("UserId")
                         .HasColumnType("bigint");
 
+                    b.Property<long>("createdBy")
+                        .HasColumnType("bigint");
+
+                    b.Property<long>("updatedBy")
+                        .HasColumnType("bigint");
+
                     b.HasKey("Id");
 
                     b.HasIndex("UserId");
@@ -196,6 +307,29 @@ namespace Infrastructure.Migrations
                     b.ToTable("BlogPostTagRel");
                 });
 
+            modelBuilder.Entity("Domain.Models.blog.BlogSave", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<long>("BlogPostId")
+                        .HasColumnType("bigint");
+
+                    b.Property<long>("UserId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BlogPostId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("BlogSave");
+                });
+
             modelBuilder.Entity("Domain.Models.blog.Category", b =>
                 {
                     b.Property<long>("Id")
@@ -237,6 +371,12 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("UpdatedDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<long>("createdBy")
+                        .HasColumnType("bigint");
+
+                    b.Property<long>("updatedBy")
+                        .HasColumnType("bigint");
+
                     b.HasKey("Id");
 
                     b.ToTable("Category");
@@ -273,12 +413,18 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("UpdatedDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<long>("createdBy")
+                        .HasColumnType("bigint");
+
+                    b.Property<long>("updatedBy")
+                        .HasColumnType("bigint");
+
                     b.HasKey("Id");
 
                     b.ToTable("Tags");
                 });
 
-            modelBuilder.Entity("Domain.Models.blog.BlogPost", b =>
+            modelBuilder.Entity("Domain.Models.User.RefreshToken", b =>
                 {
                     b.HasOne("Domain.Models.User.AppUser", "AppUser")
                         .WithMany()
@@ -289,10 +435,59 @@ namespace Infrastructure.Migrations
                     b.Navigation("AppUser");
                 });
 
+            modelBuilder.Entity("Domain.Models.blog.BlogComment", b =>
+                {
+                    b.HasOne("Domain.Models.blog.BlogPost", "BlogPost")
+                        .WithMany("Comments")
+                        .HasForeignKey("BlogPostId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Models.User.AppUser", "AppUser")
+                        .WithMany("BlogComments")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+
+                    b.Navigation("BlogPost");
+                });
+
+            modelBuilder.Entity("Domain.Models.blog.BlogLike", b =>
+                {
+                    b.HasOne("Domain.Models.blog.BlogPost", "BlogPost")
+                        .WithMany("Likes")
+                        .HasForeignKey("BlogPostId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Models.User.AppUser", "User")
+                        .WithMany("BlogLikes")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("BlogPost");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Domain.Models.blog.BlogPost", b =>
+                {
+                    b.HasOne("Domain.Models.User.AppUser", "AppUser")
+                        .WithMany("BlogPosts")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+                });
+
             modelBuilder.Entity("Domain.Models.blog.BlogPostCategoryRel", b =>
                 {
                     b.HasOne("Domain.Models.blog.BlogPost", "BlogPost")
-                        .WithMany()
+                        .WithMany("BlogPostCategories")
                         .HasForeignKey("BlogPostId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -316,7 +511,7 @@ namespace Infrastructure.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Domain.Models.blog.Category", "Tags")
+                    b.HasOne("Domain.Models.blog.Tags", "Tags")
                         .WithMany()
                         .HasForeignKey("TagId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -325,6 +520,47 @@ namespace Infrastructure.Migrations
                     b.Navigation("BlogPost");
 
                     b.Navigation("Tags");
+                });
+
+            modelBuilder.Entity("Domain.Models.blog.BlogSave", b =>
+                {
+                    b.HasOne("Domain.Models.blog.BlogPost", "BlogPost")
+                        .WithMany("Saves")
+                        .HasForeignKey("BlogPostId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Models.User.AppUser", "User")
+                        .WithMany("BlogSaves")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("BlogPost");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Domain.Models.User.AppUser", b =>
+                {
+                    b.Navigation("BlogComments");
+
+                    b.Navigation("BlogLikes");
+
+                    b.Navigation("BlogPosts");
+
+                    b.Navigation("BlogSaves");
+                });
+
+            modelBuilder.Entity("Domain.Models.blog.BlogPost", b =>
+                {
+                    b.Navigation("BlogPostCategories");
+
+                    b.Navigation("Comments");
+
+                    b.Navigation("Likes");
+
+                    b.Navigation("Saves");
                 });
 #pragma warning restore 612, 618
         }

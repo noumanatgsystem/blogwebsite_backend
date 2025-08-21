@@ -1,12 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "qgYO5dsyb66nPrr87SbrhrUS6YdC+7k1tq9qVmABrgw=",
-  "Source": "blogging Website",
-  "BasePath": "_content/blogging Website",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
-}
+{"Version":1,"Hash":"qgYO5dsyb66nPrr87SbrhrUS6YdC+7k1tq9qVmABrgw=","Source":"blogging Website","BasePath":"_content/blogging Website","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
