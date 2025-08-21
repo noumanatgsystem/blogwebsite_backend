@@ -28,3 +28,19 @@ D:\Muhammad Nouman\Projects\Blog Site\Backend\blogging Website\Application\obj\D
 D:\Muhammad Nouman\Projects\Blog Site\Backend\blogging Website\Application\obj\Debug\net8.0\refint\Application.dll
 D:\Muhammad Nouman\Projects\Blog Site\Backend\blogging Website\Application\obj\Debug\net8.0\Application.pdb
 D:\Muhammad Nouman\Projects\Blog Site\Backend\blogging Website\Application\obj\Debug\net8.0\ref\Application.dll
+F:\Muhammad Nouman\Projects\Blogging SIte\blogwebsite_backend\Application\bin\Debug\net8.0\Application.deps.json
+F:\Muhammad Nouman\Projects\Blogging SIte\blogwebsite_backend\Application\bin\Debug\net8.0\Application.dll
+F:\Muhammad Nouman\Projects\Blogging SIte\blogwebsite_backend\Application\bin\Debug\net8.0\Application.pdb
+F:\Muhammad Nouman\Projects\Blogging SIte\blogwebsite_backend\Application\bin\Debug\net8.0\Domain.dll
+F:\Muhammad Nouman\Projects\Blogging SIte\blogwebsite_backend\Application\bin\Debug\net8.0\Domain.pdb
+F:\Muhammad Nouman\Projects\Blogging SIte\blogwebsite_backend\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+F:\Muhammad Nouman\Projects\Blogging SIte\blogwebsite_backend\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\Muhammad Nouman\Projects\Blogging SIte\blogwebsite_backend\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+F:\Muhammad Nouman\Projects\Blogging SIte\blogwebsite_backend\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+F:\Muhammad Nouman\Projects\Blogging SIte\blogwebsite_backend\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+F:\Muhammad Nouman\Projects\Blogging SIte\blogwebsite_backend\Application\obj\Debug\net8.0\Application.sourcelink.json
+F:\Muhammad Nouman\Projects\Blogging SIte\blogwebsite_backend\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+F:\Muhammad Nouman\Projects\Blogging SIte\blogwebsite_backend\Application\obj\Debug\net8.0\Application.dll
+F:\Muhammad Nouman\Projects\Blogging SIte\blogwebsite_backend\Application\obj\Debug\net8.0\refint\Application.dll
+F:\Muhammad Nouman\Projects\Blogging SIte\blogwebsite_backend\Application\obj\Debug\net8.0\Application.pdb
+F:\Muhammad Nouman\Projects\Blogging SIte\blogwebsite_backend\Application\obj\Debug\net8.0\ref\Application.dll

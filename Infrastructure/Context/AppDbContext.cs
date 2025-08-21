@@ -24,6 +24,9 @@ namespace Infrastructure.Context
         public DbSet<BlogPostCategoryRel> BlogPostCategoryRel { get; set; }
         public DbSet<BlogPostTagRel> BlogPostTagRel { get; set; }
         public DbSet<Category> Category { get; set; }
+        public DbSet<BlogComment> BlogComment { get; set; }
+        public DbSet<BlogLike> BlogLike { get; set; }
+        public DbSet<BlogSave> BlogSave { get; set; }
         public DbSet<Tags> Tags { get; set; }
 
         #endregion

@@ -41,14 +41,15 @@ namespace Common.Methods
             var plainTextBytes = System.Text.Encoding.UTF8.GetBytes(password);
             return System.Convert.ToBase64String(plainTextBytes);
         }
-        public static string GenerateJwtToken(string UserEmail, long UserID, string UserName, IConfiguration config)
+        public static string GenerateJwtToken(string UserEmail, long UserID, string UserName,string Role ,IConfiguration config)
         {
 
             var authClaims = new List<Claim>
             {
                 new Claim("Email", UserEmail),
                 new Claim("ID", UserID.ToString()),
-                new Claim("UserName", UserName)
+                new Claim("UserName", UserName),
+                new Claim("Role",Role)
             };
             var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["JWT:Secret"]));
             var token = new JwtSecurityToken(
